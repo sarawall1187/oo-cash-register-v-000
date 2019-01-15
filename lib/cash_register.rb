@@ -89,7 +89,7 @@
 # quantity.times do 
 #   @items << title
 # end
-
+require "pry"
 class CashRegister
   
   attr_accessor :discount, :total
