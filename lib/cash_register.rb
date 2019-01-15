@@ -110,8 +110,7 @@ class CashRegister
       employee_discount = @discount.to_f/100 * @total
     @total -= employee_discount
     "After the discount, the total comes to $#{@total.to_i}."
-
-  end
+   end
   end
   
   
