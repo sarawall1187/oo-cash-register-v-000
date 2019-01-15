@@ -105,10 +105,12 @@ class CashRegister
   
   def apply_discount
     if @discount == 0
+      
+    else
       employee_discount = @discount.to_f/100 * @total
     @total -= employee_discount
     "After the discount, the total comes to $#{@total.to_i}."
-  else
+
     
   end
   
